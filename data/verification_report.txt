@@ -1,0 +1,64 @@
+BELLHAVEN CRM END-STATE AUDIT
+==============================
+website_communities    35
+crm_accounts           127
+created_by_pipeline    6
+approved               29
+rejected               2
+unverified_writes      0
+still_pending          0
+checks_passed          45
+issues                 0
+
+ISSUES (0)
+
+NOTES (2)
+  - Not on website: Bellhaven Care Center of Alliance (00116ETS45BL7DTQP7) status=Active (proposal deliberately rejected by reviewer)
+  - Not on website: Bellhaven of Coldwater (0016PVXH4B25HWR7QE) status=Active (proposal deliberately rejected by reviewer)
+
+PASSED (45)
+  ok Bellhaven of Maplewood (Maplewood, OH) -> 001L3LGR6W69J8DYYV
+  ok Bellhaven of New Carlisle (New Carlisle, OH) -> 001AQGPZ5G5VRES536
+  ok Bellhaven of Wooster (Wooster, OH) -> 001W5G121A7SMRP58M
+  ok Bellhaven Terrace of Akron (Akron, OH) -> 0019Y4J61ZBG4R00CD
+  ok Bellhaven of Saline (Saline, MI) -> 001MVVAPY6U5TVYRC4
+  ok Bellhaven of Goshen (Goshen, IN) -> 001JQER1RMYKNRLNME
+  ok Bellhaven of Meadville (Meadville, PA) -> 001KC1NG7EZDEKKA3T
+  ok Bellhaven of Defiance (Defiance, OH) -> 001R4PXTUD9R6FNN8V
+  ok Bellhaven Woods of Toledo (Toledo, OH) -> 0014DHACE6WQU3RMM5
+  ok Bellhaven of Marion (Marion, OH) -> 0015L38R1Z5947ZZP7
+  ok Bellhaven of Kalamazoo (Kalamazoo, MI) -> 001NSHWKQD0YJLPQ20
+  ok Bellhaven Court of Altoona (Altoona, PA) -> 0011D2P3CWSHMF81C8
+  ok Bellhaven Rehabilitation & Nursing of Grove City (Grove City, OH) -> 001TZCSTBZFM6K5BGN
+  ok Bellhaven at Sycamore Ridge (Miamisburg, OH) -> 00191H7JR16471SZ34
+  ok The Arbors at Bellhaven - Dayton (Dayton, OH) -> 0010KJFP601YNTZVDA
+  ok Bellhaven Healthcare Centre of Ashland (Ashland, OH) -> 001RJ0D7Z5MAZN5HX5
+  ok Bellhaven of Port Clinton (Port Clinton, OH) -> 001UELXDAKFRKB8932
+  ok Bellhaven Shores of Erie (Erie, PA) -> 001CVBBCSDM7YHN220
+  ok Bellhaven of Kettering (Kettering, OH) -> 001WR41PYNWXCAE2X4
+  ok Bellhaven Gardens of Monroe (Monroe, MI) -> 001U1750VLVJAGG1S5
+  ok Bellhaven of Tiffin (Tiffin, OH) -> 001F274421C4DD4841
+  ok Bellhaven of Marietta (Marietta, OH) -> 001430A7FDE022FC22
+  ok Bellhaven Crossings of Lima (Lima, OH) -> 001LGFPBJY4N9MB6KL
+  ok Bellhaven of Zanesville (Zanesville, OH) -> 001H1JMVZWP46D5VUF
+  ok Bellhaven of Chagrin Falls (Chagrin Falls, OH) -> 001RJU1X4NBWC1Q0G7
+  ok Bellhaven Willow Creek (Portage, MI) -> 0017MN2JYAJBDS8WQZ
+  ok Bellhaven of Ashtabula (Ashtabula, OH) -> 001NXP9X46CWEPSLSV
+  ok Bellhaven of Owosso (Owosso, MI) -> 001QU150PM4Z15UA71
+  ok Bellhaven of Portsmouth (Portsmouth, OH) -> 001CF3LDWVRGL09P4F
+  ok Bellhaven of Batavia (Batavia, OH) -> 001331941627E036A6
+  ok Bellhaven at Union Square (New Albany, OH) -> 001A59EF8EA5FE5EB1
+  ok Bellhaven of Carlisle (Carlisle, PA) -> 001EAE70E323C13286
+  ok Amberly Manor (Hudson, OH) -> 0012DF5660C5F873A7
+  ok Bellhaven of Chesterton (Chesterton, IN) -> 0013NUZQHQUEZ8DXEG
+  ok Bellhaven Meadows of Findlay (Findlay, OH) -> 001UKEFGADQ8YCZ4YM
+  ok CHOW Bellhaven of Marietta (001A34WFSUYHCRBLFT) -> 001430A7FDE022FC22 [Bellhaven of Marietta under Bellhaven Senior Living (Parent Account)]; old parent kept: Cedar Trail Communities (Parent Account)
+  ok CHOW Bellhaven of Sandusky (001SXSF4ELF0Z2LGDM) -> 0017JP8Z1UQ763BVK3 [Millstone Care of Sandusky under Millstone Health Partners (Parent Account)]; old parent kept: Bellhaven Senior Living (Parent Account)
+  ok CHOW Bellhaven of Tiffin (001U6RW32TY0WSXZZB) -> 001F274421C4DD4841 [Bellhaven of Tiffin under Bellhaven Senior Living (Parent Account)]; old parent kept: Cedar Trail Communities (Parent Account)
+  ok Duplicate Bellhaven of Owosso (001EGU7BMJ942ZTRE6) -> 001QU150PM4Z15UA71 [Bellhaven of Owosso]
+  ok Duplicate Cedar Trail of Monroe (0011AB44D05WLA9HTX) -> 001U1750VLVJAGG1S5 [Bellhaven Gardens of Monroe]
+  ok Duplicate Harborview Nursing & Rehab of Port Clinton (001JD2MWRA74LTSN24) -> 001UELXDAKFRKB8932 [Bellhaven of Port Clinton]
+  ok Duplicate Harborview Shores of Erie (001BLYF02K97SZLZHH) -> 001CVBBCSDM7YHN220 [Bellhaven Shores of Erie]
+  ok Duplicate Kettering Nursing & Rehabilitation (0016KTS1UAWBRXS09J) -> 001WR41PYNWXCAE2X4 [Bellhaven of Kettering]
+  ok Duplicate Kettering Senior Campus (001B7XZAA3AFALS9GP) -> 001WR41PYNWXCAE2X4 [Bellhaven of Kettering]
+  ok Duplicate Monroe Gardens Care Center (00159PL81N38KM4FHM) -> 001U1750VLVJAGG1S5 [Bellhaven Gardens of Monroe]
