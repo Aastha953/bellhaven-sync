@@ -128,4 +128,4 @@ Testing against a mock does not prove the real CRM was corrected, so `verify_crm
 - Store decisions in a database instead of a JSON file, for multi-reviewer use.
 - Use contacts (administrator names from the website) as an additional matching signal.
 
-**Time spent:** ~2.5 hours (build, real-data QA, review, demo)
+**Time spent:** ~2 hours (build, real-data QA, review, demo)
