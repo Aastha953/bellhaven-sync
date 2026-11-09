@@ -1,0 +1,34 @@
+name: Bellhaven ownership sync (daily)
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # 6:17 AM Eastern (11:17 UTC)
+  workflow_dispatch: {}      # allow a manual run
+
+concurrency:                 # never let two runs overlap
+  group: bellhaven-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write            # to commit the refreshed review queue
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Build review queue (read-only against CRM)
+        env:
+          CRM_TOKEN: ${{ secrets.CRM_TOKEN }}
+        run: python run_pipeline.py
+      - name: Persist queue + run log (decisions.json is the idempotency ledger)
+        run: |
+          git config user.name "bellhaven-sync-bot"
+          git config user.email "bellhaven-sync-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Daily Bellhaven sync: refresh review queue"
+          git push

@@ -1,0 +1,469 @@
+{
+  "6bf508bdd558e803": {
+    "decision": "approved",
+    "done": [
+      0,
+      1
+    ],
+    "refs": {
+      "new": "001430A7FDE022FC22"
+    },
+    "results": [
+      "create 001430A7FDE022FC22: verified by read-back",
+      "patch 001A34WFSUYHCRBLFT: verified by read-back"
+    ],
+    "at": "2026-11-09 19:43:41Z",
+    "reviewer_note": "",
+    "title": "Change of ownership (CHOW): Bellhaven of Marietta -> new account under Bellhaven",
+    "type": "chow",
+    "account_id": "001A34WFSUYHCRBLFT"
+  },
+  "07be2e35e7a4bd9e": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001SXSF4ELF0Z2LGDM: verified by read-back"
+    ],
+    "at": "2026-11-09 19:44:11Z",
+    "reviewer_note": "",
+    "title": "Change of ownership (CHOW): Bellhaven of Sandusky sold -> Millstone Care of Sandusky",
+    "type": "chow",
+    "account_id": "001SXSF4ELF0Z2LGDM"
+  },
+  "7edf4fcbc17c5f87": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {
+      "new": "0012DF5660C5F873A7"
+    },
+    "results": [
+      "create 0012DF5660C5F873A7: verified by read-back"
+    ],
+    "at": "2026-11-09 19:44:51Z",
+    "reviewer_note": "",
+    "title": "Create account: Amberly Manor",
+    "type": "create",
+    "account_id": null
+  },
+  "52911548967c83a1": {
+    "decision": "approved",
+    "done": [
+      0,
+      1
+    ],
+    "refs": {
+      "new": "001F274421C4DD4841"
+    },
+    "results": [
+      "create 001F274421C4DD4841: verified by read-back",
+      "patch 001U6RW32TY0WSXZZB: verified by read-back"
+    ],
+    "at": "2026-11-09 19:49:03Z",
+    "reviewer_note": "",
+    "title": "Change of ownership (CHOW): Bellhaven of Tiffin -> new account under Bellhaven",
+    "type": "chow",
+    "account_id": "001U6RW32TY0WSXZZB"
+  },
+  "ddfdc629e5164c6e": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001LGFPBJY4N9MB6KL: verified by read-back"
+    ],
+    "at": "2026-11-09 19:58:38Z",
+    "reviewer_note": "",
+    "title": "Re-parent: Bellhaven Crossings of Lima (Harborview Care Group (Parent Account) -> Bellhaven)",
+    "type": "reparent",
+    "account_id": "001LGFPBJY4N9MB6KL"
+  },
+  "5ecc10dc62b603da": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {
+      "new": "001A59EF8EA5FE5EB1"
+    },
+    "results": [
+      "create 001A59EF8EA5FE5EB1: verified by read-back"
+    ],
+    "at": "2026-11-09 19:59:43Z",
+    "reviewer_note": "",
+    "title": "Create account: Bellhaven at Union Square",
+    "type": "create",
+    "account_id": null
+  },
+  "f2b76dc156051cb0": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001B7XZAA3AFALS9GP: verified by read-back"
+    ],
+    "at": "2026-11-09 20:00:38Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Kettering Senior Campus (001B7XZAA3AFALS9GP) -> keep 001WR41PYNWXCAE2X4",
+    "type": "duplicate",
+    "account_id": "001B7XZAA3AFALS9GP"
+  },
+  "56c1a094b5e550a3": {
+    "decision": "rejected",
+    "at": "2026-11-09 20:01:19Z",
+    "reviewer_note": "",
+    "title": "Not on Bellhaven website: Bellhaven of Coldwater",
+    "type": "not_on_website",
+    "account_id": "0016PVXH4B25HWR7QE"
+  },
+  "9f9b7b17a5b49998": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001UKEFGADQ8YCZ4YM: verified by read-back"
+    ],
+    "at": "2026-11-09 20:30:47Z",
+    "reviewer_note": "",
+    "title": "Re-parent: Bellhaven Meadows of Findlay ((no parent) -> Bellhaven)",
+    "type": "reparent",
+    "account_id": "001UKEFGADQ8YCZ4YM"
+  },
+  "5cff4e13756c59bb": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001H1JMVZWP46D5VUF: verified by read-back"
+    ],
+    "at": "2026-11-09 20:30:51Z",
+    "reviewer_note": "",
+    "title": "Re-parent: Cedar Trail of Zanesville (Cedar Trail Communities (Parent Account) -> Bellhaven)",
+    "type": "reparent",
+    "account_id": "001H1JMVZWP46D5VUF"
+  },
+  "c9cd65a070952974": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001WR41PYNWXCAE2X4: verified by read-back"
+    ],
+    "at": "2026-11-09 20:30:56Z",
+    "reviewer_note": "",
+    "title": "Re-parent: Kettering Care Centre (Harborview Care Group (Parent Account) -> Bellhaven)",
+    "type": "reparent",
+    "account_id": "001WR41PYNWXCAE2X4"
+  },
+  "fc7f6d8ec2d4e1af": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {
+      "new": "001EAE70E323C13286"
+    },
+    "results": [
+      "create 001EAE70E323C13286: verified by read-back"
+    ],
+    "at": "2026-11-09 20:31:10Z",
+    "reviewer_note": "",
+    "title": "Create account: Bellhaven of Carlisle",
+    "type": "create",
+    "account_id": null
+  },
+  "c83e3fd9baa6891e": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {
+      "new": "001331941627E036A6"
+    },
+    "results": [
+      "create 001331941627E036A6: verified by read-back"
+    ],
+    "at": "2026-11-09 20:31:58Z",
+    "reviewer_note": "",
+    "title": "Create account: Bellhaven of Batavia",
+    "type": "create",
+    "account_id": null
+  },
+  "ff7c43287bda9cf9": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 00159PL81N38KM4FHM: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:12Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Monroe Gardens Care Center (00159PL81N38KM4FHM) -> keep 001U1750VLVJAGG1S5",
+    "type": "duplicate",
+    "account_id": "00159PL81N38KM4FHM"
+  },
+  "957af6cbdd8036cf": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001EGU7BMJ942ZTRE6: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:18Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Bellhaven of Owosso (001EGU7BMJ942ZTRE6) -> keep 001QU150PM4Z15UA71",
+    "type": "duplicate",
+    "account_id": "001EGU7BMJ942ZTRE6"
+  },
+  "18497101e6053ddf": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 0011AB44D05WLA9HTX: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:21Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Cedar Trail of Monroe (0011AB44D05WLA9HTX) -> keep 001U1750VLVJAGG1S5",
+    "type": "duplicate",
+    "account_id": "0011AB44D05WLA9HTX"
+  },
+  "f96ef9bdaeee9e26": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001JD2MWRA74LTSN24: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:26Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Harborview Nursing & Rehab of Port Clinton (001JD2MWRA74LTSN24) -> keep 001UELXDAKFRKB8932",
+    "type": "duplicate",
+    "account_id": "001JD2MWRA74LTSN24"
+  },
+  "7fdc8ea31a5e0142": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001BLYF02K97SZLZHH: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:29Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Harborview Shores of Erie (001BLYF02K97SZLZHH) -> keep 001CVBBCSDM7YHN220",
+    "type": "duplicate",
+    "account_id": "001BLYF02K97SZLZHH"
+  },
+  "1732d23b3ce3e247": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 0016KTS1UAWBRXS09J: verified by read-back"
+    ],
+    "at": "2026-11-09 20:33:37Z",
+    "reviewer_note": "",
+    "title": "Duplicate: Kettering Nursing & Rehabilitation (0016KTS1UAWBRXS09J) -> keep 001WR41PYNWXCAE2X4",
+    "type": "duplicate",
+    "account_id": "0016KTS1UAWBRXS09J"
+  },
+  "45f5036aeb5e0f5d": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 0010KJFP601YNTZVDA: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:18Z",
+    "reviewer_note": "",
+    "title": "Rename: Arbors at Bellhaven Dayton -> The Arbors at Bellhaven - Dayton",
+    "type": "rename",
+    "account_id": "0010KJFP601YNTZVDA"
+  },
+  "2b747df5766ef62d": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001RJ0D7Z5MAZN5HX5: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:21Z",
+    "reviewer_note": "",
+    "title": "Rename: Bellhaven Health Care Center of Ashland -> Bellhaven Healthcare Centre of Ashland",
+    "type": "rename",
+    "account_id": "001RJ0D7Z5MAZN5HX5"
+  },
+  "5a5ba217014907ba": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001TZCSTBZFM6K5BGN: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:25Z",
+    "reviewer_note": "",
+    "title": "Rename: Bellhaven Rehab and Nursing of Grove City -> Bellhaven Rehabilitation & Nursing of Grove City",
+    "type": "rename",
+    "account_id": "001TZCSTBZFM6K5BGN"
+  },
+  "425765639ec5d26b": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 00191H7JR16471SZ34: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:30Z",
+    "reviewer_note": "",
+    "title": "Rename: Bellhaven of Sycamore Ridge -> Bellhaven at Sycamore Ridge",
+    "type": "rename",
+    "account_id": "00191H7JR16471SZ34"
+  },
+  "6eebd5e2dbb454cd": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001H1JMVZWP46D5VUF: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:51Z",
+    "reviewer_note": "",
+    "title": "Rename: Cedar Trail of Zanesville -> Bellhaven of Zanesville",
+    "type": "rename",
+    "account_id": "001H1JMVZWP46D5VUF"
+  },
+  "cbdfc4215fc1c6ea": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 0013NUZQHQUEZ8DXEG: verified by read-back"
+    ],
+    "at": "2026-11-09 20:34:56Z",
+    "reviewer_note": "",
+    "title": "Rename: Chesterton Senior Commons -> Bellhaven of Chesterton",
+    "type": "rename",
+    "account_id": "0013NUZQHQUEZ8DXEG"
+  },
+  "42ab549a8603cad9": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001WR41PYNWXCAE2X4: verified by read-back"
+    ],
+    "at": "2026-11-09 20:35:01Z",
+    "reviewer_note": "",
+    "title": "Rename: Kettering Care Centre -> Bellhaven of Kettering",
+    "type": "rename",
+    "account_id": "001WR41PYNWXCAE2X4"
+  },
+  "28fa04522298a811": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001RJU1X4NBWC1Q0G7: verified by read-back"
+    ],
+    "at": "2026-11-09 20:35:05Z",
+    "reviewer_note": "",
+    "title": "Rename: Riverbend Manor Care Center -> Bellhaven of Chagrin Falls",
+    "type": "rename",
+    "account_id": "001RJU1X4NBWC1Q0G7"
+  },
+  "7ed4896721c585a7": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 0017MN2JYAJBDS8WQZ: verified by read-back"
+    ],
+    "at": "2026-11-09 20:35:09Z",
+    "reviewer_note": "",
+    "title": "Rename: Sunny Acres Retirement Home -> Bellhaven Willow Creek",
+    "type": "rename",
+    "account_id": "0017MN2JYAJBDS8WQZ"
+  },
+  "3695ba823cd5c507": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001NXP9X46CWEPSLSV: verified by read-back"
+    ],
+    "at": "2026-11-09 20:35:56Z",
+    "reviewer_note": "",
+    "title": "Update address: Bellhaven of Ashtabula",
+    "type": "address",
+    "account_id": "001NXP9X46CWEPSLSV"
+  },
+  "a054c092e540fbc9": {
+    "decision": "approved",
+    "done": [
+      0
+    ],
+    "refs": {},
+    "results": [
+      "patch 001CF3LDWVRGL09P4F: verified by read-back"
+    ],
+    "at": "2026-11-09 20:36:01Z",
+    "reviewer_note": "",
+    "title": "Update address: Bellhaven of Portsmouth",
+    "type": "address",
+    "account_id": "001CF3LDWVRGL09P4F"
+  },
+  "c3098d024ee6e0b4": {
+    "decision": "rejected",
+    "at": "2026-11-09 20:37:53Z",
+    "reviewer_note": "Only signal is absence from the website; no new owner found at this address. Leaving as-is until sales rep confirms sold vs. closed (same as Coldwater).",
+    "title": "Not on Bellhaven website: Bellhaven Care Center of Alliance",
+    "type": "not_on_website",
+    "account_id": "00116ETS45BL7DTQP7"
+  }
+}

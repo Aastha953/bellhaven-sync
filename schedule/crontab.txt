@@ -1,0 +1,4 @@
+# Run the Bellhaven ownership sync every day at 6:17 AM Eastern.
+# The job only builds the review queue; nothing reaches the CRM until a reviewer approves it.
+CRON_TZ=America/New_York
+17 6 * * * cd /opt/bellhaven-sync && CRM_TOKEN=$(cat /etc/bellhaven/crm_token) /usr/bin/python3 run_pipeline.py >> logs/pipeline.log 2>&1

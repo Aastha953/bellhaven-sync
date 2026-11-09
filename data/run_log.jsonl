@@ -1,0 +1,5 @@
+{"at": "2026-11-09 19:17:29Z", "status": "ok", "locations": 35, "accounts": 121, "pending": 31, "already_decided": 0, "by_type": {"chow": 2, "reparent": 4, "create": 4, "duplicate": 7, "rename": 9, "address": 2, "not_on_website": 3}}
+{"at": "2026-11-09 19:26:15Z", "status": "ok", "locations": 35, "accounts": 121, "pending": 31, "already_decided": 0, "by_type": {"chow": 3, "reparent": 4, "create": 4, "duplicate": 7, "rename": 9, "address": 2, "not_on_website": 2}}
+{"at": "2026-11-09 20:03:43Z", "status": "ok", "locations": 35, "accounts": 125, "pending": 23, "already_decided": 8, "by_type": {"reparent": 3, "create": 2, "duplicate": 6, "rename": 9, "address": 2, "not_on_website": 1}}
+{"at": "2026-11-09 20:38:11Z", "status": "ok", "locations": 35, "accounts": 127, "pending": 0, "already_decided": 31, "by_type": {}}
+{"at": "2026-11-09 21:06:54Z", "status": "ok", "locations": 35, "accounts": 127, "pending": 0, "already_decided": 31, "by_type": {}}
