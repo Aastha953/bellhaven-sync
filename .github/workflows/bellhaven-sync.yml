@@ -16,11 +16,19 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - run: pip install -r requirements.txt
+      - name: Check CRM token secret is configured
+        env:
+          CRM_TOKEN: ${{ secrets.CRM_TOKEN }}
+        run: |
+          if [ -z "$CRM_TOKEN" ]; then
+            echo "::error::Repository secret CRM_TOKEN is not set (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
       - name: Build review queue (read-only against CRM)
         env:
           CRM_TOKEN: ${{ secrets.CRM_TOKEN }}
