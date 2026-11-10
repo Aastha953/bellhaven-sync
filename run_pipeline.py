@@ -17,6 +17,10 @@ from scraper import scrape
 def main():
     started = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%SZ")
     print(f"[{started}] Bellhaven sync starting")
+    if not config.CRM_TOKEN:
+        print("  ERROR: CRM_TOKEN is not set. Set it as an environment variable (locally) "
+              "or a repository secret (GitHub Actions).")
+        return 2
 
     locations, meta = scrape()
     print(f"  website: {meta}")
